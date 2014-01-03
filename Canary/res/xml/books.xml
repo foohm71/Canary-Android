@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<books>
+    <book>
+        <title>Lord of the flies</title>
+        <author>William Golding</author>
+    </book>
+    <book>
+        <title>The catcher in the rye</title>
+        <author>J. D. Salinger</author>        
+    </book>
+    <book>
+        <title>To kill a mockingbird</title>
+        <author>Harper Lee</author>        
+    </book>
+    <book>
+        <title>The lord of the rings</title>
+        <author>J. R. R. Tolkien</author>        
+    </book>
+    <book>
+        <title>Pride and prejudice</title>
+        <author>Jane Austen</author>        
+    </book>
+    <book>
+        <title>The art of war</title>
+        <author>Sun Tzu</author>        
+    </book>
+    <book>
+        <title>You only live twice</title>
+        <author>Ian Fleming</author>        
+    </book>
+    <book>
+        <title>The beautiful ones are not yet born</title>
+        <author>Ayi Kwei Armah</author>        
+    </book>
+    <book>
+        <title>Things fall apart</title>
+        <author>Chinua Achebe</author>        
+    </book>    
+</books>

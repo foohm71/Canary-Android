@@ -1,0 +1,23 @@
+Testsuite: com.Megadodo.Canary.test.CanaryUnitTests
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 3.507 sec
+------------- Standard Output ---------------
+WARNING: No manifest file found at ./AndroidManifest.xml.Falling back to the Android OS resources only.
+To remove this warning, annotate your test class with @Config(manifest=Config.NONE).
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+WARNING: no system properties value for ro.build.date.utc
+------------- ---------------- ---------------
+
+Testcase: shouldHaveHappySmiles took 3.426 sec
+	Caused an ERROR
+unknown resource 2131099651
+android.content.res.Resources$NotFoundException: unknown resource 2131099651
+	at org.robolectric.shadows.ShadowAssetManager.getAndResolve(ShadowAssetManager.java:258)
+	at org.robolectric.shadows.ShadowAssetManager.getResourceText(ShadowAssetManager.java:62)
+	at android.content.res.AssetManager.getResourceText(AssetManager.java)
+	at android.content.res.Resources.getText(Resources.java:225)
+	at android.content.res.Resources.getString(Resources.java:313)
+	at com.Megadodo.Canary.test.CanaryUnitTests.shouldHaveHappySmiles(CanaryUnitTests.java:17)
+	at org.robolectric.RobolectricTestRunner$2.evaluate(RobolectricTestRunner.java:234)
+	at org.robolectric.RobolectricTestRunner$1.evaluate(RobolectricTestRunner.java:175)
+

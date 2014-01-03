@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="1" failures="0" hostname="Chriss-MacBook-Air.local" name="com.Megadodo.Canary.test.CanaryUnitTests" skipped="0" tests="1" time="3.507" timestamp="2014-01-03T06:12:08">
+  <properties>
+    <property name="java.vendor" value="Apple Inc." />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="jikes.class.path" value=":/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/alt-rt.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/alt-string.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/charsets.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/classes.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/dt.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/jce.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/jconsole.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/jsse.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/management-agent.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/ui.jar" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="os.name" value="Mac OS X" />
+    <property name="sun.boot.class.path" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsfd.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar:/System/Library/Frameworks/JavaVM.framework/Frameworks/JavaRuntimeSupport.framework/Resources/Java/JavaRuntimeSupport.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/ui.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/laf.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/sunrsasign.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsse.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jce.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/charsets.jar" />
+    <property name="ant.file.CanaryUnitTest" value="/Users/foohm71/Trials/QEBootcamp/Canary/CanaryUnitTests/build.xml" />
+    <property name="TODAY" value="January 2 2014" />
+    <property name="java.vm.specification.vendor" value="Sun Microsystems Inc." />
+    <property name="ant.home" value="/Users/foohm71/ant/apache-ant-1.9.2" />
+    <property name="test.project.build.dir" value="bin/" />
+    <property name="java.runtime.version" value="1.6.0_65-b14-462-11M4609" />
+    <property name="user.name" value="foohm71" />
+    <property name="awt.nativeDoubleBuffering" value="true" />
+    <property name="user.language" value="en" />
+    <property name="ant.file.type.CanaryUnitTest" value="file" />
+    <property name="test.report.dir" value="test-reports/" />
+    <property name="sun.boot.library.path" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Libraries" />
+    <property name="android.project.classpath" value="../Canary/bin/classes/" />
+    <property name="ant.project.default-target" value="test" />
+    <property name="ant.project.name" value="CanaryUnitTest" />
+    <property name="DSTAMP" value="20140102" />
+    <property name="java.version" value="1.6.0_65" />
+    <property name="user.timezone" value="" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+    <property name="java.endorsed.dirs" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/endorsed" />
+    <property name="sun.cpu.isalist" value="" />
+    <property name="sun.jnu.encoding" value="MacRoman" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="file.separator" value="/" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="test.html.dir" value="test-report-html/" />
+    <property name="java.class.version" value="50.0" />
+    <property name="test.project.libs.dir" value="libs/" />
+    <property name="user.country" value="US" />
+    <property name="java.home" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="ant.file" value="/Users/foohm71/Trials/QEBootcamp/Canary/CanaryUnitTests/build.xml" />
+    <property name="os.version" value="10.9" />
+    <property name="path.separator" value=":" />
+    <property name="java.vm.version" value="20.65-b04-462" />
+    <property name="ant.library.dir" value="/Users/foohm71/ant/apache-ant-1.9.2/lib" />
+    <property name="java.awt.printerjob" value="apple.awt.CPrinterJob" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="awt.toolkit" value="apple.awt.CToolkit" />
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+    <property name="user.home" value="/Users/foohm71" />
+    <property name="java.specification.vendor" value="Sun Microsystems Inc." />
+    <property name="java.library.path" value=".:/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java" />
+    <property name="java.vendor.url" value="http://www.apple.com/" />
+    <property name="java.vm.vendor" value="Apple Inc." />
+    <property name="gopherProxySet" value="false" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner com.Megadodo.Canary.test.CanaryUnitTests filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.PlainJUnitResultFormatter,/Users/foohm71/Trials/QEBootcamp/Canary/CanaryUnitTests/test-reports/TEST-com.Megadodo.Canary.test.CanaryUnitTests.txt formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/foohm71/Trials/QEBootcamp/Canary/CanaryUnitTests/test-reports/TEST-com.Megadodo.Canary.test.CanaryUnitTests.xml crashfile=/Users/foohm71/Trials/QEBootcamp/Canary/CanaryUnitTests/junitvmwatcher1972247550515158921.properties propsfile=/Users/foohm71/Trials/QEBootcamp/Canary/CanaryUnitTests/junit6328333045853369862.properties" />
+    <property name="java.class.path" value="/Users/foohm71/Trials/QEBootcamp/Canary/CanaryUnitTests/bin:/Users/foohm71/Trials/QEBootcamp/Canary/Canary/bin/classes:/Users/foohm71/Trials/QEBootcamp/Canary/CanaryUnitTests/libs/junit.jar:/Users/foohm71/Trials/QEBootcamp/Canary/CanaryUnitTests/libs/robolectric-2.2-jar-with-dependencies.jar:/Users/foohm71/Trials/QEBootcamp/Canary/CanaryUnitTests/libs/org.hamcrest.core.jar:/Users/foohm71/Trials/QEBootcamp/Canary/CanaryUnitTests/libs/android.jar:/Users/foohm71/Trials/QEBootcamp/Canary/CanaryUnitTests/libs/maps.jar:/Users/foohm71/Trials/QEBootcamp/Canary/Canary/libs/android-support-v4.jar:/Users/foohm71/ant/apache-ant-1.9.2/lib/ant-launcher.jar:/Users/foohm71/ant/apache-ant-1.9.2/lib/ant.jar:/Users/foohm71/ant/apache-ant-1.9.2/lib/ant-junit.jar:/Users/foohm71/ant/apache-ant-1.9.2/lib/ant-junit4.jar" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.9.2 compiled on July 8 2013" />
+    <property name="TSTAMP" value="2212" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="ant.file.type" value="file" />
+    <property name="java.vm.specification.version" value="1.0" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="sun.os.patch.level" value="unknown" />
+    <property name="java.io.tmpdir" value="/var/folders/_y/qnmtgjxd2s11mhh_myw7s2f00000gn/T/" />
+    <property name="java.vendor.url.bug" value="http://bugreport.apple.com/" />
+    <property name="mrj.build" value="11M4609" />
+    <property name="os.arch" value="x86_64" />
+    <property name="java.awt.graphicsenv" value="apple.awt.CGraphicsEnvironment" />
+    <property name="java.ext.dirs" value="/Library/Java/Extensions:/System/Library/Java/Extensions:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext" />
+    <property name="user.dir" value="/Users/foohm71/Trials/QEBootcamp/Canary/CanaryUnitTests" />
+    <property name="mrj.version" value="1070.1.6.0_65-462" />
+    <property name="android.test.project.libs.dir" value="../Canary/libs/" />
+    <property name="line.separator" value="
+" />
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+    <property name="test.project.source.dir" value="../Canary/test/" />
+    <property name="basedir" value="/Users/foohm71/Trials/QEBootcamp/Canary/CanaryUnitTests" />
+    <property name="ant.java.version" value="1.6" />
+    <property name="ant.core.lib" value="/Users/foohm71/ant/apache-ant-1.9.2/lib/ant.jar" />
+    <property name="file.encoding" value="MacRoman" />
+    <property name="java.specification.version" value="1.6" />
+    <property name="ant.project.invoked-targets" value="test" />
+  </properties>
+  <testcase classname="com.Megadodo.Canary.test.CanaryUnitTests" name="shouldHaveHappySmiles" time="3.43">
+    <error message="unknown resource 2131099651" type="android.content.res.Resources$NotFoundException">android.content.res.Resources$NotFoundException: unknown resource 2131099651
+	at org.robolectric.shadows.ShadowAssetManager.getAndResolve(ShadowAssetManager.java:258)
+	at org.robolectric.shadows.ShadowAssetManager.getResourceText(ShadowAssetManager.java:62)
+	at android.content.res.AssetManager.getResourceText(AssetManager.java)
+	at android.content.res.Resources.getText(Resources.java:225)
+	at android.content.res.Resources.getString(Resources.java:313)
+	at com.Megadodo.Canary.test.CanaryUnitTests.shouldHaveHappySmiles(CanaryUnitTests.java:17)
+	at org.robolectric.RobolectricTestRunner$2.evaluate(RobolectricTestRunner.java:234)
+	at org.robolectric.RobolectricTestRunner$1.evaluate(RobolectricTestRunner.java:175)
+</error>
+  </testcase>
+  <system-out><![CDATA[WARNING: No manifest file found at ./AndroidManifest.xml.Falling back to the Android OS resources only.
+To remove this warning, annotate your test class with @Config(manifest=Config.NONE).
+]]></system-out>
+  <system-err><![CDATA[WARNING: no system properties value for ro.build.date.utc
+]]></system-err>
+</testsuite>
