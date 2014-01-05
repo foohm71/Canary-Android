@@ -1,6 +1,7 @@
 package com.Megadodo.canary.test;
 
-import com.Megadodo.canary.*;
+import com.Megadodo.canary.MainActivity;
+import com.Megadodo.canary.SecondActivity;
 import com.jayway.android.robotium.solo.Solo;
 
 import android.test.ActivityInstrumentationTestCase2;
@@ -24,7 +25,7 @@ public class CanaryFunctionalTest extends
 	public void testClickSwitchViewButton() {
 		mSolo.assertCurrentActivity("Checks correct Actvity Class", MainActivity.class);
 		mSolo.clickOnButton("Switch View");
-		mSolo.sleep(3000);
+		mSolo.sleep(5000);
 		mSolo.assertCurrentActivity("Checks correct Actvity Class", SecondActivity.class);
 	}
 	
