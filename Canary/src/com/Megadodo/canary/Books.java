@@ -30,6 +30,13 @@ public class Books {
 		readData();
 	}
 	
+	public Books() {
+		mAuthors = new HashMap<String,String>();
+		
+		System.out.println("Books is HERE");
+		readData();		
+	}
+	
 	public Set<String> getTitles() {
 		return mAuthors.keySet();
 	}

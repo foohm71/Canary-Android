@@ -35,5 +35,29 @@
     <book>
         <title>Things fall apart</title>
         <author>Chinua Achebe</author>        
+    </book>
+    <book>
+        <title>The great Gatsby</title>
+        <author>F. Scott Fitzgerald</author>
     </book>    
+    <book>
+        <title>A tale of two cities</title>
+        <author>Charles Dickens</author>
+    </book>
+    <book>
+        <title>The three musketeers</title>
+        <author>Alexandre Dumas</author>
+    </book>
+    <book>
+        <title>Animal Farm</title>
+        <author>George Orwell</author>
+    </book>
+    <book>
+        <title>1984</title>
+        <author>George Orwell</author>
+    </book>
+    <book>
+        <title>The mayor of Casterbridge</title>
+        <author>Thomas Hardy</author>
+    </book>
 </books>
